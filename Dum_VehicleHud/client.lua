@@ -11,7 +11,7 @@ function showText(text)
     SetTextOutline()
     SetTextEntry("STRING")
     AddTextComponentString(text)
-    DrawText(0.02,0.7) --{x,y}
+    DrawText(0.02,0.70) --{x,y}
 end
 
 --Speedmeter Thread
