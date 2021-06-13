@@ -16,15 +16,15 @@ end
 
 --Speedmeter Thread
 Citizen.CreateThread(function()
-while true do
-        Citizen.wait(1) --Adds A Small Delay to Avoid Crahing
-        local speed = (GetEntitySpeed(GetVehicleIsPedIsIn(GetPlayerPed(-1, false))*mph)
-        if (isPedInAnyVehicle(GetPlayerPed(-1, false)) then
-            if speed < 1 then
-                showText("")
-            else
-                showText(math.floor(speed))
+    while true do
+            Citizen.wait(1) --Adds A Small Delay to Avoid Crahing
+            if (isPedInAnyVehicle(GetPlayerPed(-1, false)) then
+            local speed = (GetEntitySpeed(GetVehicleIsPedIsIn(GetPlayerPed(-1, false))*mph)
+                if speed < 1 then
+                    showText("")
+                else
+                    showText(math.floor(speed))
+                end
             end
         end
-    end
-end)
+    end)
