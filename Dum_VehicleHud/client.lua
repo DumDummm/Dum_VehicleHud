@@ -21,7 +21,7 @@ Citizen.CreateThread(function()
             if (isPedInAnyVehicle(GetPlayerPed(-1, false)) then
             local speed = (GetEntitySpeed(GetVehicleIsPedIsIn(GetPlayerPed(-1, false))*mph)
                 if speed < 1 then
-                    showText("")
+                    showText("0")
                 else
                     showText(math.floor(speed))
                 end
