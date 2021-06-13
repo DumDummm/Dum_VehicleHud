@@ -12,11 +12,11 @@ To change the MPH TO KMPH Go To The Client.lua Then at line 21 change MPH to KMP
 ### Using Git
 ```
 cd resources
-git clone https://github.com/ESX-Org/esx_atm [esx]/Dum_VehicleHud
+git clone https://github.com/DumDummm/Dum_VehicleHud [esx]/Dum_VehicleHud
 ```
 
 ### Manually
-- Download https://github.com/ESX-Org/esx_atm/archive/master.zip
+- Download https://github.com/DumDummm/Dum_VehicleHud
 - Put it in the `[esx]` directory
 
 ## Installation
@@ -27,7 +27,7 @@ start/ensure Dum_VehicleHud
 ```
 # Legal
 ### License
-esx_atm - atm script for ESX
+Dum_VehicleHud - SimpleVehicleHud script for ESX
 
 Copyright (C) 2015-2018 Jérémie N'gadi
 
